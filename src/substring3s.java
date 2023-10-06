@@ -11,6 +11,7 @@ public class substring3s {
         System.out.println(s.substring(0,k));
 for (i=2; i<=length; i++){
     System.out.println(s.substring((k*i-k),k*i));
+
 }
     }
 }
