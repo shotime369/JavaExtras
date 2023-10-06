@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class day2 {
+public class tips {
     public static void main(String []argh) {
         Scanner input = new Scanner(System.in);
         double mealCost = input.nextDouble();

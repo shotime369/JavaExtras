@@ -12,7 +12,7 @@ public class currency {
             Scanner scanner = new Scanner(System.in);
             double payment = scanner.nextDouble();
             scanner.close();
-//Locale uslocale = new Locale ("en", "US");
+
             NumberFormat currencyFormatterus = NumberFormat.getCurrencyInstance(Locale.US);
             String us = currencyFormatterus.format(payment);
 
@@ -20,11 +20,11 @@ public class currency {
             NumberFormat currencyFormatteri = NumberFormat.getCurrencyInstance(ilocale);
             String i = currencyFormatteri.format(payment);
 
-//Locale clocale = new Locale ("c", "China");
+
             NumberFormat currencyFormatterc = NumberFormat.getCurrencyInstance(Locale.CHINA);
             String c = currencyFormatterc.format(payment);
 
-//Locale flocale = new Locale ("f", "France");
+
             NumberFormat currencyFormatterf = NumberFormat.getCurrencyInstance(Locale.FRANCE);
             String f = currencyFormatterf.format(payment);
 
