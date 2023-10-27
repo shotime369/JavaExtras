@@ -3,12 +3,7 @@ import java.util.Scanner;
 
 public class Arrayday7 {
 
-    public static void printArrayReverse (int[] array){
-        for (int i=array.length-1; i>=0; i--) {
-            int item = array[i];
-           System.out.print(item +" ");
-            }
-        }
+
 
 
     public static void main(String [] args){
@@ -35,5 +30,11 @@ public class Arrayday7 {
            // intArray1 [p] = x;
 
 printArrayReverse(numbers);
+    }
+    public static void printArrayReverse (int[] array){
+        for (int i=array.length-1; i>=0; i--) {
+            int item = array[i];
+            System.out.print(item +" ");
+        }
     }
     }
